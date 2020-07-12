@@ -1,0 +1,234 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.box1 {
+    background-image: url("https://image.shutterstock.com/image-photo/wood-wall-bulb-lights-lamp-600w-551746348.jpg");
+    padding-bottom: 50px;
+    padding-top:40px;
+    background-position: absolute;
+    opacity: .7;
+    margin-bottom: 5px;
+    text-align: center;
+}
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: none;
+    color: black;
+    border:3px solid white;
+    margin-right: 2px;
+    
+}
+
+.h1 {
+    
+    color:black;
+    text-align:center;
+}
+
+.box2 {
+    background-color:gray;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.h2 {
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+.p2 {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.box3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+.pic {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.h3 {
+    text-align: center;
+    color: white;
+    padding-bottom: zpx;
+}
+.p3 {
+    
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.project,.experience,.education {
+    background-color:#363b3f;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px; 
+}
+
+.box1 {
+    background-image: url("https://image.shutterstock.com/image-photo/wood-wall-bulb-lights-lamp-600w-551746348.jpg");
+    padding-bottom: 50px;
+    padding-top:40px;
+    background-position: absolute;
+    opacity: .7;
+    margin-bottom: 5px;
+    width:170%;
+}
+
+.h1 {
+    
+    color:black;
+    text-align:center;
+}
+
+.box2 {
+    background-color:gray;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    width:170%;
+}
+.h2 {
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+.p2 {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.box3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.project {
+    margin-top: 2px;
+    display: block;
+    width: 168%;
+    text-align: center;
+
+}
+.experience {
+    display: block;
+    width:168%;
+    margin-top: 2px;
+    
+}
+
+.education {
+
+    margin-top: 2px;
+    width: 168%;
+}
+.p3 {
+    text-align: center;    
+   
+}
+
+}
+
+@media only screen and (min-width:701px) and ( max-width:800px) {
+
+    body {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px; 
+    }
+    
+    .box1 {
+        background-image: url("https://image.shutterstock.com/image-photo/wood-wall-bulb-lights-lamp-600w-551746348.jpg");
+        padding-bottom: 50px;
+        padding-top:40px;
+        background-position: absolute;
+        opacity: .7;
+        margin-bottom: 5px;
+        width:170%;
+    }
+    
+    .h1 {
+        
+        color:black;
+        text-align:center;
+    }
+    
+    .box2 {
+        background-color:gray;
+        padding-top: 2px;
+        padding-bottom: 25px;
+        text-align: center;
+        margin-bottom: 5px;
+        width:170%;
+    }
+    .h2 {
+        text-align: center;
+        margin-bottom: 10px;
+     
+    }
+    .p2 {
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .box3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .project {
+        margin-top: 2px;
+        display: block;
+        width: 200%;
+        text-align: center;
+        padding-right: 30px;        
+    }
+    .experience {
+        margin-top: 2px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 285px;
+        padding-right: 150px;  
+    }
+    
+    .education {
+        display: block;
+        margin-top: 10px;
+        width:510%;    
+    }
+    .p3 {
+        text-align: center;    
+       
+    }
+
+}
